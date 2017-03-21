@@ -1,0 +1,16 @@
+{
+  "name": "minflow",
+  "description": "a boilerplate for gulp and front end workflow",
+  "authors": [
+    "Ericson Luciano <design.ericson@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
