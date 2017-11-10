@@ -1,0 +1,100 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+
+
+footer ul { list-style: none; padding: 0; margin: 0;}
+footer ul.links-inline li a, footer .social-icon a{ margin: 0 10px; display: inline-block;}
+footer ul.links-inline li{ display: inline-block;}
+footer ul.links li a { margin: 2px 0; display: inline-block}
+footer .newsletter button{padding: 0 !important; position: absolute; right:15px; top: 24px; outline: none; background:transparent;}
+footer .newsletter button.btn{padding: 8px 15px !important;}
+footer .social-icon a i{ height: 40px; width: 40px; border-radius: 50%; vertical-align: middle; text-align: center;}
+footer .social-icon a:last-child{ margin-right:0;}
+
+/* ===================================
+    Call To Action
+====================================== */
+
+.offer .offer-box-right ul { padding-left: 0;}
+.offer .offer-box-right ul li{display: inline-block; margin:0 15px 15px 0;}
+
+/* ===================================
+    Counter
+====================================== */
+
+.counter-box .counter-content{left: 0; right: 0; top: 50%; transform: translateY(-50%); z-index: 11;}
+
+/* ===================================
+    Clients
+====================================== */
+
+.grid-border [class^=col-]:before, .grid-border [class^=col-]:after {content: ''; position: absolute;}
+.grid-border [class^=col-]:before { height: 100%; top: 0; left: -1px; border-left: 1px solid rgba(0,0,0,0.1);}
+.grid-border [class^=col-]:before, .grid-border [class^=col-]:after { content: ''; position: absolute;}
+.grid-border [class^=col-]:after { width: 100%; height: 0; top: auto; left: 0; bottom: 0; border-bottom: 1px solid rgba(0,0,0,0.1);}
+.client-logo-inner {display: table-cell; text-align: center; vertical-align: middle; width: 100%;}
+.client-logo-outer {display: table; width: 100%;}
+
+/* ===================================
+    Timer
+====================================== */
+
+.time-counter-box {width:780px}
+.time-counter .counter-box { display: inline-block !important; border-right: 1px solid rgba(255,255,255,.3); padding:20px 20px 7px; min-width: 160px; text-align: center;}
+.time-counter .counter-box .number {font-size:50px; color:#fff; padding-bottom:15px;}
+.time-counter .counter-box:last-child {border-right:0}
+
+/* ===================================
+    Testimonial 
+====================================== */
+
+/* testimonial style 5 */
+.testimonial-style5 .testimonial  {padding-left:15px; }
+.testimonial-style5 .testimonial:before { content:"\f10d"; font-family:'FontAwesome'; line-height: 44px;  position: absolute; left: 0px; font-size: 14px; top: -7px; color: #282828 }
+
+/* testimonial style 7 */
+.testimonial-style7 i { margin:0 2px}
+.testimonial-style7 .testimonial-box {box-shadow: 0 0 3px rgba(0, 0, 0, .10); padding:45px 35px}
+
+/* testimonial style 8 */
+.testimonial-style8 .testimonial-img {position:relative}
+.testimonial-style8 .testimonial-img:before {content:"\f10d"; font-family:'FontAwesome'; line-height: 44px;  position: absolute; font-size: 40px; top: -7px; color: #ffcf29; margin-left: -73px; z-index: -1; left: 50% }
+
+/* testimonial style 9 */
+.testimonial-style9-con {padding:55px 45px; box-shadow: 0 0 3px rgba(0, 0, 0, .10);}
+
+/* ===================================
+    Social Widget
+====================================== */
+
+/* social widget style 1 */
+.social-widget-1 .timePosted a { font-size: 12px !important; color: #a1a1a1 !important; text-transform: uppercase !important;}
+.social-widget-1 .tweet { font-size: 16px !important; color: #ffffff !important; margin-bottom: 2% !important; font-weight: 400!important; line-height: 26px !important;}
+.social-widget-1 .tweet a { font-size: 16px !important; color: #ffffff !important;}
+
+/* social widget style 2 */
+.social-widget-2 .timePosted a { font-size: 12px !important; color: #282828 !important; text-transform: uppercase !important;}
+.social-widget-2 .tweet { font-size: 16px !important; color: #282828 !important; margin-bottom: 3% !important;}
+.social-widget-2 .tweet a { font-size: 16px !important; color: #32b6e6 !important;}
+.social-widget-2 .twitter-widget { top: 50%; transform: translateY(-50%);}
+
+/* social widget style 3 */
+.social-widget-3 .timePosted a { font-size: 12px !important; color: #a1a1a1 !important; text-transform: uppercase !important;}
+.social-widget-3 .tweet { font-size: 16px !important; color: #69696e !important; margin-bottom: 2% !important; font-weight: 400!important; line-height: 26px !important;}
+.social-widget-3 .tweet a { font-size: 16px !important; color: #32b6e6 !important;}
+
+/* social widget style 4 */
+.social-widget-4 .timePosted a { font-size: 12px !important; color: #ffffff !important; text-transform: uppercase !important;}
+.social-widget-4 .tweet { font-size: 16px !important; color: #ffffff !important; margin-bottom: 2% !important; font-weight: 400!important; line-height: 26px !important;}
+.social-widget-4 .tweet a { font-size: 16px !important; color: #ffffff !important;}
+
+/* social widget style 5 */
+.social-widget-5 .timePosted a { font-size: 11px !important; color: #a1a1a1 !important; text-transform: uppercase !important;}
+.social-widget-5 .tweet { font-size: 14px !important; color: #69696e !important; margin-bottom: 1.5% !important; font-weight: 400!important; line-height: 26px !important;}
+.social-widget-5 .tweet a { font-size: 16px !important; color: #32b6e6 !important;}
+
+/* ===================================
+    only ie7, ie9, ie10, ie11
+====================================== */

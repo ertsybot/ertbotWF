@@ -1,0 +1,84 @@
+0000000000000000000000000000000000000000 416f288eccc0812b45156d9c7441b25e3db63ff1 Ert <ert@futureworks.ph> 1490347829 +0800	commit (initial): adding new repo to organize things -ert
+416f288eccc0812b45156d9c7441b25e3db63ff1 801a910d023a3a57671fe96cf598d39940dc5b4f Ert <ert@futureworks.ph> 1490348994 +0800	commit: adding readme -ert
+801a910d023a3a57671fe96cf598d39940dc5b4f 92b49f7b09db10d96a408ad1852712a39f59b39f Ert <ert@futureworks.ph> 1491557915 +0800	commit: adding layout editor stuffs -ert
+92b49f7b09db10d96a408ad1852712a39f59b39f 5e5028a1707561e6b4bb73fee3043d2a3344481f Ert <ert@futureworks.ph> 1491903909 +0800	commit: happy holyweek -ert
+5e5028a1707561e6b4bb73fee3043d2a3344481f c0832608b5d6d78642cb436c9325b8b7a5c44418 Ert <ert@futureworks.ph> 1492397210 +0800	pull: Fast-forward
+c0832608b5d6d78642cb436c9325b8b7a5c44418 67dea63c2b974d0cf9adf312663dee11068dc998 Ert <ert@futureworks.ph> 1492401089 +0800	commit: adding some layout for create events and edit -ert
+67dea63c2b974d0cf9adf312663dee11068dc998 0f79ccd4f379e2554ec9e5dd6f669fb33647a700 Ert <ert@futureworks.ph> 1495788547 +0800	commit: adding backup for the weekend -ert
+0f79ccd4f379e2554ec9e5dd6f669fb33647a700 8fe1c6762072d7bf53ad1fba524c3fc98cd0f625 Ert <ert@futureworks.ph> 1504520556 +0800	commit: adding pages for landing - login -signup -subscription and details account
+8fe1c6762072d7bf53ad1fba524c3fc98cd0f625 9149bbb4a5d035a5d09540344b4944ae16ff7240 Ert <ert@futureworks.ph> 1504605141 +0800	commit: fixing subscription page -ert
+9149bbb4a5d035a5d09540344b4944ae16ff7240 55717136381876ede9de388dd78cef097f45e907 Ert <ert@futureworks.ph> 1504685996 +0800	commit: adding revisions to accountdetails.html -ert
+55717136381876ede9de388dd78cef097f45e907 ce76d50a76187ff3249d64f5820fc05844588394 Ert <ert@futureworks.ph> 1504691877 +0800	commit: adding changes to homepage -ert
+ce76d50a76187ff3249d64f5820fc05844588394 c4140768ed38f96cea437f483e6cf543325af73b Ert <ert@futureworks.ph> 1504758730 +0800	commit: adding email design and editor
+c4140768ed38f96cea437f483e6cf543325af73b 5b8d7820bee6c6628c619de36b53f2489decdbfa Ert <ert@futureworks.ph> 1504758904 +0800	commit: false
+5b8d7820bee6c6628c619de36b53f2489decdbfa f2999457d45d8edad2259f924ae3fa78b58c4d66 Ert <ert@futureworks.ph> 1504758954 +0800	commit: restored qr page -ert
+f2999457d45d8edad2259f924ae3fa78b58c4d66 7df37746a94a0d893e4e3560e641d367c888b473 Ert <ert@futureworks.ph> 1504771413 +0800	commit: adding guest_fields.html and function
+7df37746a94a0d893e4e3560e641d367c888b473 60ba24658341f71797658ed9138755912ce53565 Ert <ert@futureworks.ph> 1504841521 +0800	commit: adding guest field changes and add guest html
+60ba24658341f71797658ed9138755912ce53565 7095081d37bc3e25afbe175c0bdbffee3c8d9cc0 Ert <ert@futureworks.ph> 1504844418 +0800	commit: adding upload and download button -ert
+7095081d37bc3e25afbe175c0bdbffee3c8d9cc0 f104efa118a16030d20674bff8742428fea5d163 Ert <ert@futureworks.ph> 1504852923 +0800	commit: pushing font outside -ert
+f104efa118a16030d20674bff8742428fea5d163 308dd38e3b72d109a4dba01c83f8fe0a3ef5c811 Ert <ert@futureworks.ph> 1505100186 +0800	commit: adding stuffs for create event
+308dd38e3b72d109a4dba01c83f8fe0a3ef5c811 29a0b49cfd3da603f4a8dc5d3fbd49351a1f5981 Ert <ert@futureworks.ph> 1505108562 +0800	commit: adding changes to styles create_event.html
+29a0b49cfd3da603f4a8dc5d3fbd49351a1f5981 e7a2e5a80dbbb76613cb2f86a406f46e242b20fc Ert <ert@futureworks.ph> 1505466659 +0800	commit: adding layout editor changes -ert
+e7a2e5a80dbbb76613cb2f86a406f46e242b20fc 6fc205d0b50e96dcdf993bbed3246ad92cfbab76 Ert <ert@futureworks.ph> 1505471263 +0800	commit: adding changes layout-editor
+6fc205d0b50e96dcdf993bbed3246ad92cfbab76 8d0a81a1894ba58a5e86e7a1091854e048ab1db1 Ert <ert@futureworks.ph> 1505961613 +0800	commit: adding changes to layout editor
+8d0a81a1894ba58a5e86e7a1091854e048ab1db1 c3e25ba4ef9d0351bd1bb08041804cb74adc0e22 Ert <ert@futureworks.ph> 1505965800 +0800	commit: adding changes checkbox -ert
+c3e25ba4ef9d0351bd1bb08041804cb74adc0e22 fd4b90ea3e3f709e378df9b12404caa071ec44a5 Ert <ert@futureworks.ph> 1505969191 +0800	commit: adding multiple_entries.html -ert
+fd4b90ea3e3f709e378df9b12404caa071ec44a5 5917bc0151ab29cb4ea3e84cd7c383f88d279fe3 Ert <ert@futureworks.ph> 1505970684 +0800	commit: adding stuffs for multiple entries -ert
+5917bc0151ab29cb4ea3e84cd7c383f88d279fe3 86bab3ff13314e6bfa8e36dd1817e6764722f410 Ert <ert@futureworks.ph> 1506333811 +0800	commit: adding backup
+86bab3ff13314e6bfa8e36dd1817e6764722f410 55aa1f2ea78bab4094b12710e323012e5fa43dbf Ert <ert@futureworks.ph> 1506405541 +0800	commit: adding updated layout editor -ertbot
+55aa1f2ea78bab4094b12710e323012e5fa43dbf b430e2aafea8036608f1671dea6c4571683b1e36 Ert <ert@futureworks.ph> 1506419497 +0800	commit: adding stuffs save button -ert
+b430e2aafea8036608f1671dea6c4571683b1e36 c664696f6d01f8be145ce9931fede2f827767324 Ert <ert@futureworks.ph> 1506488394 +0800	commit: adding e-raffler layout
+c664696f6d01f8be145ce9931fede2f827767324 cc4b5fdecc4311f775351cc0c20cfac95c1b6d22 Ert <ert@futureworks.ph> 1506494534 +0800	commit: adding eraffler -ert
+cc4b5fdecc4311f775351cc0c20cfac95c1b6d22 124d65e9fd9708b4a423387c6e4415409be68b4d Ert <ert@futureworks.ph> 1506496253 +0800	commit: ading changes to styles -ert
+124d65e9fd9708b4a423387c6e4415409be68b4d 34fb9cdccbb000ab2f44bb961720567165d6c88c Ert <ert@futureworks.ph> 1506923891 +0800	commit: adding stuffs for email html Invitation
+34fb9cdccbb000ab2f44bb961720567165d6c88c 3a2c93e293e97d374daf4ebc8039f510a00cc14d Ert <ert@futureworks.ph> 1506926468 +0800	commit: done for email and email editor -ert
+3a2c93e293e97d374daf4ebc8039f510a00cc14d 836e99fe930c76ffcdd38b88836cd7a6c3187ab9 Ert <ert@futureworks.ph> 1506928905 +0800	commit: changing the dropdown navigation -ert
+836e99fe930c76ffcdd38b88836cd7a6c3187ab9 931c03b454937197e8b06e228ec10302cb3cbd87 Ert <ert@futureworks.ph> 1506937950 +0800	commit: adding qr.html design
+931c03b454937197e8b06e228ec10302cb3cbd87 7a6c98f6f4c4cee99a5c2b47550665f6bc800c25 Ert <ert@futureworks.ph> 1506939728 +0800	commit: adding stuffs event page -ert
+7a6c98f6f4c4cee99a5c2b47550665f6bc800c25 e2b04487299e5335934b867f47bded74964ec7f3 Ert <ert@futureworks.ph> 1506997311 +0800	commit: adding event.html changes
+e2b04487299e5335934b867f47bded74964ec7f3 0fef6a0990d376a2a7a8ab48c4cbe93cb8e5caca Ert <ert@futureworks.ph> 1506998534 +0800	commit: adding changes to event.htnk -ertbot
+0fef6a0990d376a2a7a8ab48c4cbe93cb8e5caca ac717a00777378aad4a0bf3055089edf294cd2b7 Ert <ert@futureworks.ph> 1507003460 +0800	commit: adding landing_event.html -ert
+ac717a00777378aad4a0bf3055089edf294cd2b7 557e9942acdb193469257aa7178d684d55a11290 Ert <ert@futureworks.ph> 1507003895 +0800	commit: changing navigation list on landing events-ert
+557e9942acdb193469257aa7178d684d55a11290 d64b36440d0701bf39c76e05d92dbea57ac10bbf Ert <ert@futureworks.ph> 1507014992 +0800	commit: restructured -ert
+d64b36440d0701bf39c76e05d92dbea57ac10bbf 87bb39e6fe27005ec2482092cf82e3d27b7cf751 Ert <ert@futureworks.ph> 1507015538 +0800	commit: restructure final -ert
+87bb39e6fe27005ec2482092cf82e3d27b7cf751 cb332c8b6254212e550f1e416a59e727b052c612 Ert <ert@futureworks.ph> 1507019642 +0800	commit: changing inputbox -ert
+cb332c8b6254212e550f1e416a59e727b052c612 97215d1d63c55b157d2b62b5180329f10b19d244 Ert <ert@futureworks.ph> 1507019844 +0800	commit (merge): restructure followup
+97215d1d63c55b157d2b62b5180329f10b19d244 b720f60cbe54bd0c279b050f11b616dff763b9e1 Ert <ert@futureworks.ph> 1507021192 +0800	commit: adding stuffs pagination
+b720f60cbe54bd0c279b050f11b616dff763b9e1 d1de29108dfff963431b88c84a2d4291ef361a5a Ert <ert@futureworks.ph> 1507083725 +0800	commit: adding changes to css -ert
+d1de29108dfff963431b88c84a2d4291ef361a5a 6398e79260644e544d44551b68afca25c7393d18 Ert <ert@futureworks.ph> 1507275919 +0800	commit: adding changes in landing_events page -ertbot
+6398e79260644e544d44551b68afca25c7393d18 e6910e4615c8b18696e7f6d0bd6ea036ad49773b Ert <ert@futureworks.ph> 1507276892 +0800	commit: adding a page event_empty html -ert
+e6910e4615c8b18696e7f6d0bd6ea036ad49773b c7184d95d51d4deaa0e69f3f254253bddfc20773 Ert <ert@futureworks.ph> 1507598484 +0800	pull: Fast-forward
+c7184d95d51d4deaa0e69f3f254253bddfc20773 9b114b25b462eb2c7d7d087061aa08a472b1cdef Ert <ert@futureworks.ph> 1507614133 +0800	commit: adding raffler -ert
+9b114b25b462eb2c7d7d087061aa08a472b1cdef c299f31a96cc12936c8382c45bb11dd5d8372b32 Ert <ert@futureworks.ph> 1507689577 +0800	commit: adding send to all checkbox -ert
+c299f31a96cc12936c8382c45bb11dd5d8372b32 290ef8540c7249dd9d7b3662042f9e291678652a Ert <ert@futureworks.ph> 1507703658 +0800	commit: adding changes to events and focus
+290ef8540c7249dd9d7b3662042f9e291678652a e369c6a42a755b6497cd85de7cfc81c994beea8e Ert <ert@futureworks.ph> 1507714287 +0800	commit: adding changes for txt field
+e369c6a42a755b6497cd85de7cfc81c994beea8e 5cee7406498087e36d6fbedc5744695b33f43e30 Ert <ert@futureworks.ph> 1507715715 +0800	commit: adding invitation -ert
+5cee7406498087e36d6fbedc5744695b33f43e30 3dfc2dbec4a0af0838e56894f4adc42bb334de25 Ert <ert@futureworks.ph> 1507772418 +0800	commit: changes for styles date & time -ert
+3dfc2dbec4a0af0838e56894f4adc42bb334de25 2ebb347296079196915a77c5298a2da82f69e770 Ert <ert@futureworks.ph> 1507773940 +0800	commit: erafflerlist
+2ebb347296079196915a77c5298a2da82f69e770 ecb138800b0ddb847c1ef50a4438edd073d91f87 Ert <ert@futureworks.ph> 1507778990 +0800	commit: adding changes to raffle.html -ert
+ecb138800b0ddb847c1ef50a4438edd073d91f87 45aafb33d552f129f26986ed7e6e88f915cc34e7 Ert <ert@futureworks.ph> 1507779091 +0800	commit: adding changes to scripts -ert
+45aafb33d552f129f26986ed7e6e88f915cc34e7 bb050a6eb028410dc91560c5e032dadc116256da Ert <ert@futureworks.ph> 1508210140 +0800	commit: adding changes to search event.html
+bb050a6eb028410dc91560c5e032dadc116256da c8ce13cc1319493fab88c65de87e6f56e18765d9 Ert <ert@futureworks.ph> 1508231250 +0800	commit: adding cross/x on the layout editor -ert
+c8ce13cc1319493fab88c65de87e6f56e18765d9 83d2dc124e82b2a3be907f17eecc755aa921b81c Ert <ert@futureworks.ph> 1508294967 +0800	commit: adding modal for delete multiple entries -ert
+83d2dc124e82b2a3be907f17eecc755aa921b81c 802da75bd3999aabfbbf3e2a43355a25a27f34c3 Ert <ert@futureworks.ph> 1508295459 +0800	commit: adding login -ert
+802da75bd3999aabfbbf3e2a43355a25a27f34c3 30351942b8ab892b4c14ddfc7f1df9db5dd9f225 Ert <ert@futureworks.ph> 1508319496 +0800	commit: adding changes to event page modal resolve duplicate
+30351942b8ab892b4c14ddfc7f1df9db5dd9f225 b50d27e5acab54c2ca658e942b1d8c2a75f67877 Ert <ert@futureworks.ph> 1508319989 +0800	commit: adding dropdown -ert
+b50d27e5acab54c2ca658e942b1d8c2a75f67877 564b00548728ca9865aedd2a4e2e66958df94621 Ert <ert@futureworks.ph> 1508725956 +0800	commit: adding duplicate button at events -ert
+564b00548728ca9865aedd2a4e2e66958df94621 8c83ba207d3648bb51a17032e005077376851f2f Ert <ert@futureworks.ph> 1508728714 +0800	commit: adding changes to eraffler container -ert
+8c83ba207d3648bb51a17032e005077376851f2f 8bc42f6a197bd2d6f309b97d76dadd449e7799c4 Ert <ert@futureworks.ph> 1508836621 +0800	commit: adding modal for ignore all -ert
+8bc42f6a197bd2d6f309b97d76dadd449e7799c4 4ec9c56e2e4fca816914c070c66a1bec5838c59c Ert <ert@futureworks.ph> 1508903464 +0800	commit: adding changes to modal center s sttyles -ertbot
+4ec9c56e2e4fca816914c070c66a1bec5838c59c cb3f1a564445c56437e786f00d49b48bf3d2afef Ert <ert@futureworks.ph> 1508904472 +0800	commit: changes to layout editor adding addd this to all -ertbot
+cb3f1a564445c56437e786f00d49b48bf3d2afef f877d85177180197e658d706ea69cb048939127e Ert <ert@futureworks.ph> 1508917224 +0800	commit: adding stuffs for menu -ertbot
+f877d85177180197e658d706ea69cb048939127e 1fbd8fb6baeacb13c964c1cafd1169de25d1622b Ert <ert@futureworks.ph> 1508923743 +0800	commit: adding modal styles -ert dale
+1fbd8fb6baeacb13c964c1cafd1169de25d1622b 398a331dd6e2861652bc7af9fbb7117f62d79aae Ert <ert@futureworks.ph> 1508924471 +0800	commit: adding modal content center -ert dale
+398a331dd6e2861652bc7af9fbb7117f62d79aae ac74954e0f52f7e2d45d22011df2342853019153 Ert <ert@futureworks.ph> 1508999368 +0800	commit: adding stuffs for eraffler.html with grayed box -ert
+ac74954e0f52f7e2d45d22011df2342853019153 68c1de554881a56798405f756714ab67234214c8 Ert <ert@futureworks.ph> 1509076897 +0800	commit: adding cancel button at create_event -html ert
+68c1de554881a56798405f756714ab67234214c8 4f8e3d9643de1e379e0f05548d72a06cc4c2fa51 Ert <ert@futureworks.ph> 1509077670 +0800	commit: added eye icon and cancel on guest_fields.html -ert
+4f8e3d9643de1e379e0f05548d72a06cc4c2fa51 c222f7d676afc50a608e02253de1f5bd9e4b8a23 Ert <ert@futureworks.ph> 1510110115 +0800	commit: initial nov 8 starting to fix issues - ert
+c222f7d676afc50a608e02253de1f5bd9e4b8a23 489f2dc41e08579f7db752e91b4a0a8507f4ee78 Ert <ert@futureworks.ph> 1510196686 +0800	commit: adding slider on layout editor - ert
+489f2dc41e08579f7db752e91b4a0a8507f4ee78 7e21ba5d15fe8c9e3792b8a2a6e2cef6d6f2c400 Ert <ert@futureworks.ph> 1510198822 +0800	commit: temporary update on the opacity slider -ert
+7e21ba5d15fe8c9e3792b8a2a6e2cef6d6f2c400 fbae40fea442bb0ce848e3d3fd73bf9114dcb101 Ert <ert@futureworks.ph> 1510205151 +0800	commit: vertical alignment on layout editor label ert
+fbae40fea442bb0ce848e3d3fd73bf9114dcb101 8ca0807aa84d77690dfb0eacd333bd53ad1d46b6 Ert <ert@futureworks.ph> 1510213802 +0800	commit: adding tabs to layout editor tool -ert
+8ca0807aa84d77690dfb0eacd333bd53ad1d46b6 4ae027f549fa517e0ea2d8afd847820f4cade707 Ert <ert@futureworks.ph> 1510218315 +0800	commit: adding changes to tabs in layout editor -ert
+4ae027f549fa517e0ea2d8afd847820f4cade707 0d780e8e6e5c31dd935380307e86f99854688eb9 Ert <ert@futureworks.ph> 1510219623 +0800	commit: removing 2 cards at landing_events.html -ert
+0d780e8e6e5c31dd935380307e86f99854688eb9 217b2f2b02f131f61a372212a0deb2b7b485cd4c Ert <ert@futureworks.ph> 1510286502 +0800	commit: adding changes to ipad-screen -ert

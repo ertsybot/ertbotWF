@@ -1,0 +1,60 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.main-banner {
+	background: $main;
+}
+
+.btn-create-m {
+
+	text-align:center;
+	margin: 30px auto !important;
+	background: $white;
+	border-radius: 30px;
+	border: solid 2px $white;
+	color: $maingray;
+	height: 60px;
+	font-size: 16px;
+	width: 100%;
+	width: 350px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	.icon {
+ 		margin-right: 10px;
+ 	}
+}
+
+.btn-create-m:focus	{
+	outline: 0;
+}
+.btn-more-info {
+	text-align:center;
+	background: $white;
+	border-radius: 30px;
+	border: solid 2px $main;
+	color: $maingray;
+	height: 50px;
+	font-size: 16px;
+	width: 100%;
+	width: 200px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	.icon {
+ 		margin-right: 10px;
+ 	}
+}
+
+.btn-create-m:hover {
+	background: $main;
+	color: $white;
+	border: solid 2px $white;
+}
+.btn-more-info:hover {
+	background: $main;
+	color: $white;
+	border: solid 2px $white;
+}
+

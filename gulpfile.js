@@ -22,7 +22,7 @@ plumber     = require('gulp-plumber');
 gulp.task('browserSync', function() {
     browserSync({
         server: {
-            baseDir: "app/"
+            baseDir: ""
         },
         options: {
             reloadDelay: 250
@@ -34,16 +34,16 @@ gulp.task('browserSync', function() {
 
 //compressing images & handle SVG files
 gulp.task('images', function(tmp) {
-    gulp.src(['app/images/*.jpg', 'app/images/*.png'])
+    gulp.src(['content/images/*.jpg', 'content/images/*.png'])
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
-        .pipe(gulp.dest('app/images'));
+        .pipe(gulp.dest('content/images'));
 });
 
 //compressing images & handle SVG files
 gulp.task('images-deploy', function() {
-    gulp.src(['app/images/**/*', '!app/images/README'])
+    gulp.src(['content/images/**/*', '!content/images/README'])
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(gulp.dest('dist/images'));
@@ -52,7 +52,7 @@ gulp.task('images-deploy', function() {
 //compiling our Javascripts
 gulp.task('scripts', function() {
     //this is where our dev JS scripts are
-    return gulp.src(['app/scripts/src/_includes/**/*.js', 'app/scripts/src/**/*.js'])
+    return gulp.src(['content/scripts/src/_includes/**/*.js', 'content/scripts/src/**/*.js'])
                 //prevent pipe breaking caused by errors from gulp plugins
                 .pipe(plumber())
                 //this is the filename of the compressed version of our JS
@@ -60,7 +60,7 @@ gulp.task('scripts', function() {
                 //catch errors
                 .on('error', gutil.log)
                 //where we will store our finalized, compressed script
-                .pipe(gulp.dest('app/scripts'))
+                .pipe(gulp.dest('content/scripts'))
                 //notify browserSync to refresh
                 .pipe(browserSync.reload({stream: true}));
 });
@@ -68,7 +68,7 @@ gulp.task('scripts', function() {
 //compiling our Javascripts for deployment
 gulp.task('scripts-deploy', function() {
     //this is where our dev JS scripts are
-    return gulp.src(['app/scripts/src/_includes/**/*.js', 'app/scripts/src/**/*.js'])
+    return gulp.src(['scripts/src/_includes/**/*.js', 'content/scripts/src/**/*.js'])
                 //prevent pipe breaking caused by errors from gulp plugins
                 .pipe(plumber())
                 //this is the filename of the compressed version of our JS
@@ -82,7 +82,7 @@ gulp.task('scripts-deploy', function() {
 //compiling our SCSS files
 gulp.task('styles', function() {
     //the initializer / master SCSS file, which will just be a file that imports everything
-    return gulp.src('app/styles/scss/main.scss')
+    return gulp.src('content/styles/scss/main.scss')
                 //prevent pipe breaking caused by errors from gulp plugins
                 .pipe(plumber({
                   errorHandler: function (err) {
@@ -96,8 +96,8 @@ gulp.task('styles', function() {
                 .pipe(sass({
                       errLogToConsole: true,
                       includePaths: [
-                            'app/assets/components/bootstrap-sass/assets/stylesheets',
-                            'app/styles/scss/'
+                            'content/components/bootstrap-sass/assets/stylesheets',
+                            'content/styles/scss/'
                       ]
                 }))
                 .pipe(autoprefixer({
@@ -111,7 +111,7 @@ gulp.task('styles', function() {
                 //get our sources via sourceMaps
                 .pipe(sourceMaps.write())
                 //where to save our final, compressed css file
-                .pipe(gulp.dest('app/styles'))
+                .pipe(gulp.dest('content/styles'))
                 //notify browserSync to refresh
                 .pipe(browserSync.reload({stream: true}));
 });
@@ -119,12 +119,12 @@ gulp.task('styles', function() {
 //compiling our SCSS files for deployment
 gulp.task('styles-deploy', function() {
     //the initializer / master SCSS file, which will just be a file that imports everything
-    return gulp.src('app/styles/scss/main.scss')
+    return gulp.src('content/styles/scss/main.scss')
                 .pipe(plumber())
                 //include SCSS includes folder
                 .pipe(sass({
                       includePaths: [
-                          'app/styles/scss',
+                          'content/styles/scss',
                       ]
                 }))
                 .pipe(autoprefixer({
@@ -141,7 +141,7 @@ gulp.task('styles-deploy', function() {
 //basically just keeping an eye on all HTML files
 gulp.task('html', function() {
     //watch any and all HTML files and refresh when something changes
-    return gulp.src('app/*.html')
+    return gulp.src('*.html')
         .pipe(plumber())
         .pipe(browserSync.reload({stream: true}))
         //catch errors
@@ -151,24 +151,24 @@ gulp.task('html', function() {
 //migrating over all HTML files for deployment
 gulp.task('html-deploy', function() {
     //grab everything, which should include htaccess, robots, etc
-    gulp.src('app/*')
+    gulp.src('*')
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(gulp.dest('dist'));
 
     //grab any hidden files too
-    gulp.src('app/.*')
+    gulp.src('.*')
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(gulp.dest('dist'));
 
-    gulp.src('app/fonts/**/*')
+    gulp.src('fonts/**/*')
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(gulp.dest('dist/fonts'));
 
     //grab all of the styles
-    gulp.src(['app/styles/*.css', '!app/styles/styles.css'])
+    gulp.src(['content/styles/*.css', '!content/content/styles/styles.css'])
         //prevent pipe breaking caused by errors from gulp plugins
         .pipe(plumber())
         .pipe(gulp.dest('dist/styles'));
@@ -201,10 +201,10 @@ gulp.task('scaffold', function() {
 //  compress all scripts and SCSS files
 gulp.task('default', ['browserSync', 'scripts', 'styles'], function() {
     //a list of watchers, so it will watch all of the following files waiting for changes
-    gulp.watch('app/scripts/src/**', ['scripts']);
-    gulp.watch('app/styles/scss/**', ['styles']);
-    gulp.watch('app/images/**', ['images']);
-    gulp.watch('app/*.html', ['html']);
+    gulp.watch('scripts/src/**', ['scripts']);
+    gulp.watch('content/styles/scss/**', ['styles']);
+    gulp.watch('content/images/**', ['images']);
+    gulp.watch('*.html', ['html']);
 });
 
 //this is our deployment task, it will set everything for deployment-ready files

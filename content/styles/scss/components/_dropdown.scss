@@ -1,0 +1,22 @@
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the dropdown component.
+// -----------------------------------------------------------------------------
+
+
+.nav-drop {
+	.dropdown-menu .logout{
+		margin-top: 10px;
+		border-top: solid 1px $subgray;
+	}
+	.dropdown-menu > li > a {
+		font-style: normal;
+		.icon {
+			margin-right: 20px;
+		}
+	}
+	.dropdown-menu > li > a:hover {
+		background: $main;
+		color: $white !important;
+	}
+}

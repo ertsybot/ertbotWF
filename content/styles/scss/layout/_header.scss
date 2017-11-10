@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.header {
+	height: 80px;
+	background: $white;
+	padding-top: 15px;
+    box-shadow: 0 0 15px #E7E7E7;
+	.logo {
+	}
+}
+
+// For subheader
+
+.sub-header {
+	height: 60px;
+	background: $maingray;
+	h4 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+		font-weight: 300;
+		padding-top: 10px;
+	}
+	.logo {
+	}
+}
+
+.navbar-default {
+	background: none !important;
+	border: none !important;
+}

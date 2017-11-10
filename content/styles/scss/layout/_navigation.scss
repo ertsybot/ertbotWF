@@ -1,0 +1,225 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the navigtion of the site/application.
+// -----------------------------------------------------------------------------
+.nav-green {
+  margin-top: 12px;
+  ul {
+    list-style: none;
+    text-align: left;
+    .create-event a{
+    	color: $main !important;
+    	border: solid 2px $main;
+    	border-radius: 25px;
+    	background: $white;
+      font-family: 'Raleway', sans-serif;
+    }
+    .create-event:hover a{
+    	color: $white !important;
+    	background: $main;
+    	border: solid 2px $main;
+    	border-radius: 25px;
+      font-family: 'Raleway', sans-serif;
+    }
+    li {
+
+      a {
+      	color: $maingray;
+        font-family: 'Raleway', sans-serif;
+      	padding: 5px 20px;
+      	font-size: 18px;
+      	font-weight: 300;
+      }
+      a:hover {
+        text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      color: $white !important;
+    	background: $main !important;
+    	border: solid 2px $main;
+    	border-radius: 25px;
+
+      }
+
+      a.logo:hover {
+        background: none;
+        border: none;
+      }
+    }
+  }
+}
+// For account Navigation
+.nav-new {
+ 
+  .icon {
+    font-size: 20px;
+    font-weight: 900;
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  ul {
+    list-style: none;
+    .create-event a{
+      color: $main !important;
+      border: solid 2px $main;
+      border-radius: 25px;
+      background: $white;
+      font-family: 'Raleway', sans-serif;
+    }
+    .create-event:hover a{
+      color: $white !important;
+      background: $main;
+      border: solid 2px $main;
+      border-radius: 25px;
+      font-family: 'Raleway', sans-serif;
+    }
+    li {
+      a {
+        color: $maingray;
+        font-family: 'Raleway', sans-serif;
+        padding: 5px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      a:hover {
+      font-family: 'Raleway', sans-serif;
+      color: $main !important;
+      text-decoration: none;
+      }
+
+      a.logo:hover {
+        background: none;
+        border: none;
+      }
+    }
+  }
+}
+
+// For account Navigation
+.nav-acct {
+  margin-top: 15px;
+  .icon {
+    font-size: 20px;
+    font-weight: 900;
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  ul {
+    list-style: none;
+    .create-event a{
+      color: $main !important;
+      border: solid 2px $main;
+      border-radius: 25px;
+      background: $white;
+      font-family: 'Raleway', sans-serif;
+    }
+    .create-event:hover a{
+      color: $white !important;
+      background: $main;
+      border: solid 2px $main;
+      border-radius: 25px;
+      font-family: 'Raleway', sans-serif;
+    }
+    li {
+      a {
+        color: $maingray;
+        font-family: 'Raleway', sans-serif;
+        padding: 5px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      a:hover {
+      font-family: 'Raleway', sans-serif;
+      color: $main !important;
+      text-decoration: none;
+      }
+
+      a.logo:hover {
+        background: none;
+        border: none;
+      }
+    }
+  }
+}
+.nav-drop {
+  a {
+    text-decoration: none;
+    color: $maingray;
+    font-style: italic;
+  }
+  a:hover , a:focus , a:active {
+    text-decoration: none;
+    font-style: none;
+    color: $main;
+  }
+
+  .icon {
+    font-size: 16px;
+    font-weight: 900;
+  }
+}
+
+// For Subhead Navigation
+
+
+.sub-head-nav {
+
+  h4 {
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+  }
+  .sub-nav {
+    ul {
+    list-style: none;
+    .create-event a{
+      color: $main !important;
+      border: solid 2px $main;
+      border-radius: 25px;
+      background: $white;
+      font-family: 'Raleway', sans-serif;
+    }
+    .create-event:hover a{
+      color: $white !important;
+      background: $main;
+      border: solid 2px $main;
+      border-radius: 25px;
+      font-family: 'Raleway', sans-serif;
+    }
+    li {
+      span.icon {
+          color: $white;
+          font-size: 16px;
+        }
+
+      a {
+        color: $maingray;
+        font-family: 'Raleway', sans-serif;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      a:hover {
+      font-family: 'Raleway', sans-serif;
+      color: $white !important;
+      text-decoration: none;
+      }
+
+      a.logo:hover {
+        background: none;
+        border: none;
+      }
+    }
+  }
+  }
+}
+
+.nav-green .navbar-collapse {
+  background: $white !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background: $white !important;
+  
+}
