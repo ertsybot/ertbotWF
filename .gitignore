@@ -1,0 +1,10 @@
+
+#Mac OSX 
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+
+# Node Designs 
+node_modules
