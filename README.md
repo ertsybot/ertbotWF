@@ -1,6 +1,6 @@
 #ERTBOT WORKFLOW
 
-For www.ertbot.co
+For www.ertsybot.com
 
 ##How to use this?
 Make sure you have Node & NPM just type 
